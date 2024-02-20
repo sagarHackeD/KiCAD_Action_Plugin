@@ -3,7 +3,7 @@ import os
 
 class SimplePlugin(pcbnew.ActionPlugin):
     def defaults(self):
-        self.name = "Plugin Name as shown in Pcbnew: Tools->External Plugins"
+        self.name = "Simple Plugin"
         self.category = "A descriptive category name"
         self.description = "A description of the plugin and what it does"
         self.show_toolbar_button = False # Optional, defaults to False
