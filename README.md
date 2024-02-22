@@ -60,13 +60,13 @@ When your script has more than one file.
            
 At minimum only ```__init__.py``` and ```complex_plugin_action.py``` are needed for a working kicad plugin.
 
-__init__.py contains:
+###__init__.py contains:
 ```
 from .complex_plugin_action import ComplexPluginAction # Note the relative import!
 ComplexPluginAction().register() # Instantiate and register to PCB editor
 ```
 
-complex_plugin_action.py contains the following.
+###complex_plugin_action.py contains the following.
 ```
 import pcbnew
 import os
