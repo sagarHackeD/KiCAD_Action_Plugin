@@ -58,6 +58,8 @@ When your script has more than one file.
               - otherfile.png
               - misc.txt
            
+At minimum only ```__init__.py``` and ```complex_plugin_action.py``` are needed for a working kicad plugin.
+
 complex_plugin_action.py contains the following.
 ```
 import pcbnew
